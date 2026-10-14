@@ -99,3 +99,20 @@ for (let i = 0; i < 10; i++) {
 console.log(contarHasta10);
 
 //25
+let preI = 0;
+let preJ = 0;
+
+for (let i = 0; i < 11; i++) {
+    preI = preI + ++preJ;
+}
+
+console.log(preI);
+
+//26
+let sumalmPares = 0;
+for (let i = 0; i < 10; i++) {
+    if (i % 2 !== 0) {
+        sumalmPares += i;
+    }
+}
+console.log(sumalmPares);
