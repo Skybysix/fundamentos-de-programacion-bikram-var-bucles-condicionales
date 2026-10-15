@@ -62,10 +62,10 @@ console.log(sumaPares);
 let variableValorNumerico = 5;
 
 //14
-let MiNombre = "Carmen"
+const MiNombre = "Carmen";
 
 //15
-let MiNumeroFav = 7;
+const MiNumeroFav = 7;
 
 //16
 let booleanoOr = booleano1 || booleano2;
