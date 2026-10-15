@@ -71,7 +71,7 @@ let MiNumeroFav = 7;
 let booleanoOr = booleano1 || booleano2;
 
 //17
-let booleanoMix1= (booleano1 &&(TAU/2 === PI)) || (variableValorNumerico <= MiNumeroFav);
+let booleanoMix1= (booleano1 &&(TAU/2 === PI)) || (variableValorNumerico >= MiNumeroFav);
 
 //18
 let seisNoEsNueve = 6 !== 9;
@@ -86,16 +86,16 @@ let valorSuma  = MiNumeroFav + variableValorNumerico;
 let valorResta = MiNumeroFav - variableValorNumerico;
 
 //22
-valorMultiplicación = MiNumeroFav * variableValorNumerico;
+let valorMultiplicación = MiNumeroFav * variableValorNumerico;
 
 //23
-valorDivisión = MiNumeroFav / variableValorNumerico;
+let valorDivisión = MiNumeroFav / 3;
 
 //24
 let contarHasta10 = 0;
-for (let i = 0; i < 10; i++) {
+while (contarHasta10 < 10) {
     contarHasta10++;
-    }
+}
 console.log(contarHasta10);
 
 //25
@@ -109,10 +109,10 @@ for (let i = 0; i < 11; i++) {
 console.log(preI);
 
 //26
-let sumalmPares = 0;
+let sumaImPares = 0;
 for (let i = 0; i < 10; i++) {
     if (i % 2 !== 0) {
-        sumalmPares += i;
+        sumaImPares += i;
     }
 }
-console.log(sumalmPares);
+console.log(sumaImPares);
